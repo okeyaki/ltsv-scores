@@ -14,6 +14,8 @@ $ source .venv/bin/activate
 $ pip install -U pip
 
 $ pip install -e .[dev]
+
+$ cat etc/example/target.ltsv | ltsv-scores --config=etc/example/config.yml
 ```
 
 ### Visual Studio Code
