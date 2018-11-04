@@ -1,0 +1,30 @@
+#
+# Project
+#
+
+.venv/
+
+#
+# Vendor
+#
+
+# Dotenv
+.env
+
+# Mac OS
+__MAXOSX/
+.DS_Store
+
+# Python
+__pycache__/
+*.egg-info/
+
+# Vi
+*.swp
+
+# Visual Studio Code
+*.code-workspace
+
+# Windows
+Thumbs.db
+desktop.ini

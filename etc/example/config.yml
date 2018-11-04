@@ -1,0 +1,23 @@
+action:
+  evaluated_field: 'host'
+
+  rules:
+    - field: 'req'
+      pattern: '//xmlrpc.php'
+      weight: 10
+
+    - field: 'req'
+      pattern: 'POST /xmlrpc.php'
+      weight: 2
+
+    - field: 'req'
+      pattern: 'POST /wp-login.php'
+      weight: 2
+
+    - field: 'req'
+      pattern: 'GET /wp-login.php'
+      weight: 1
+
+    - field: 'req'
+      pattern: 'author='
+      weight: 1.5

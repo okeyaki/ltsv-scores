@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "LTSV Scores",
+      "path": "."
+    },
+  ],
+  "settings": {
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true
+  }
+}
